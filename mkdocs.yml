@@ -1,0 +1,47 @@
+# Project Information
+site_name: SJTU Bioinformatics Platform
+site_description: SJTU Bioinformatics Platform
+site_author: Oracle Lee
+site_dir: public
+#site_url: "https://111.186.58.107"
+#repo_name: Github/sjtuhpcc/docs
+repo_url: https://www.google.com
+#edit_uri: tree/master/docs/
+
+
+
+theme: 
+    name: rtd-dropdown
+    # Default settings
+    collapse_by_default: false
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+    # Development Settings
+    #name: null
+    #custom_dir: 'rtd_dropdown/'
+
+
+nav:
+    #- 主页: index.md
+    - 账号服务:
+        - 账号管理: user-guide/writing-your-docs.md
+    - 用户导航:
+        - 平台登录: user-guide/登录.md
+        - 数据管理: user-guide/custom-themes.md
+    - 数据分析:
+        - 可视化流程:
+        - WDL流程:
+    - About:
+        - Release Notes: about/release-notes.md
+        - Contributing: about/contributing.md
+        - License: about/license.md
+
+extra_css:
+    - css/extra.css
+
+plugins:
+    - search
+
+google_analytics: ['UA-10006093-5', 'readthedocs.sheets.ch']
