@@ -30,9 +30,9 @@ nav:
     - 用户导航:
         - 平台登录: user-guide/登录.md
         - 数据管理: user-guide/custom-themes.md
-    - 数据分析:
-        - 可视化流程:
-        - WDL流程:
+    # - 数据分析:
+    #     - 可视化流程:
+    #     - WDL流程:
     - About:
         - Release Notes: about/release-notes.md
         - Contributing: about/contributing.md
